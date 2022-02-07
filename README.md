@@ -1,6 +1,14 @@
 # CSC552-Project-3
 Client/Server project that I created for my advanced unix scripting course in grad school. 
 
+Author:         Noah Cregger
+Creation Date:  5/3/21
+Due Date:       5/6/21
+Course:         CSC552
+Professor Name: Dr. Spiegel
+Assignment:     Assignment 3
+Filename:       readme.txt
+
 The server loops infinitely until the client exits, in which case the child server exits, 
 but the system is constantly waiting for new clients until a signal is given to kill it. I set up semaphores after the socket is made, and use those
 for handling the data. When reading files, it is concurrent access. When writing to files, it is a mutex. This ensures that data isn't being messed up
