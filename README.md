@@ -104,8 +104,8 @@ How to run:
 	-I have also given you three test scripts: cliA.sh, cliB.sh and cliC.sh. These test scripts are to be run on separate machines to test 
 	the server program.
 	-To run the test scripts type:
-		-sleep 2 && sh cliC.sh (on one machine)
-		-sleep 1 && sh cliB.sh (on another machine)
+		-sleep 2 && sh cliC.sh (on one machine), 
+		-sleep 1 && sh cliB.sh (on another machine), 
 		-sh cliA.sh (on the last machine)
 	-As long as you time these well, it should appear to simulate clients running the server and giving commands on 3 separate machines. 
 	-I tried to set the server to give you options for when you want to close it based off the number of clients on the server, but I had issues
